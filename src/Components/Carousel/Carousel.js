@@ -1,11 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
 //import Article from '../Article/Article';
-import store from '../../Redux_Logic/store';
 import * as headlines from '../../Redux_Logic/CAROUSEL_HEADLINES_LOGIC/headlineselector';
 import { useSelector } from 'react-redux';
 import * as image from '../../Redux_Logic/CAROUSEL_HEADLINES_LOGIC/imageselector';
-
-
+import {Container} from 'react-bootstrap';
 const ArticleScroll = () => {
 
     const viewSelector = useSelector((state)=>state.view);
@@ -14,10 +12,12 @@ const ArticleScroll = () => {
         <>
         <Carousel variant = 'dark' bg = 'dark'>
 
-
-            <Carousel.Item style = {{'height':'800px'}} interval = {3500}>
+            <Carousel.Item style = {{'height':'800px'}} interval = {4000}>
+                <Container>
                 <img className="d-block w-100" 
                     src = {image.article1(viewSelector)}/>
+                </Container>
+
                 <Carousel.Caption>
                     <div style = {{backgroundColor: 'whitesmoke', height: '50px'}}>
                     <h3>
@@ -25,13 +25,17 @@ const ArticleScroll = () => {
                     </h3>
                     </div>
                 </Carousel.Caption>
+
             </Carousel.Item>
 
 
+            <Carousel.Item style = {{'height':'800px'}} interval = {4000}>
 
-            <Carousel.Item style = {{'height':'800px'}} interval = {3500}>
+                <Container>
                 <img className="d-block w-100" 
                     src = {image.article2(viewSelector)}/>
+                </Container>
+
                 <Carousel.Caption>
                     <div style = {{backgroundColor: 'whitesmoke', height: '50px'}}>
                     <h3>
@@ -43,9 +47,11 @@ const ArticleScroll = () => {
 
 
 
-            <Carousel.Item style = {{'height':'800px'}} interval = {3500}>
+            <Carousel.Item style = {{'height':'800px'}} interval = {4000}>
+                <Container>
                 <img className="d-block w-100" 
                     src = {image.article3(viewSelector)}/>
+                </Container>
                 <Carousel.Caption>
                     <div style = {{backgroundColor: 'whitesmoke', height: '50px'}}>
                     <h3>

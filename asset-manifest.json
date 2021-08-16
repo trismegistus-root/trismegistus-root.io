@@ -1,26 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/static/js/main.8e9482c2.chunk.js",
-    "main.js.map": "/static/js/main.8e9482c2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.744c95b7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.744c95b7.js.map",
+    "main.js": "/static/js/main.3fe2d86c.chunk.js",
+    "main.js.map": "/static/js/main.3fe2d86c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fd234379.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fd234379.js.map",
     "static/css/2.ce5f84ac.chunk.css": "/static/css/2.ce5f84ac.chunk.css",
-    "static/js/2.0d4749f6.chunk.js": "/static/js/2.0d4749f6.chunk.js",
-    "static/js/2.0d4749f6.chunk.js.map": "/static/js/2.0d4749f6.chunk.js.map",
-    "static/js/3.49a16e49.chunk.js": "/static/js/3.49a16e49.chunk.js",
-    "static/js/3.49a16e49.chunk.js.map": "/static/js/3.49a16e49.chunk.js.map",
+    "static/js/2.e1847dbf.chunk.js": "/static/js/2.e1847dbf.chunk.js",
+    "static/js/2.e1847dbf.chunk.js.map": "/static/js/2.e1847dbf.chunk.js.map",
+    "static/js/3.7f5d9f5a.chunk.js": "/static/js/3.7f5d9f5a.chunk.js",
+    "static/js/3.7f5d9f5a.chunk.js.map": "/static/js/3.7f5d9f5a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ce5f84ac.chunk.css.map": "/static/css/2.ce5f84ac.chunk.css.map",
     "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.0d4749f6.chunk.js.LICENSE.txt": "/static/js/2.0d4749f6.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/js/2.e1847dbf.chunk.js.LICENSE.txt": "/static/js/2.e1847dbf.chunk.js.LICENSE.txt",
+    "static/media/census_left.4a3c61e9.jpeg": "/static/media/census_left.4a3c61e9.jpeg",
+    "static/media/census_lib.a655abff.jpeg": "/static/media/census_lib.a655abff.jpeg",
+    "static/media/census_right.a680118a.png": "/static/media/census_right.a680118a.png",
+    "static/media/taliban_left.0535e742.jpg": "/static/media/taliban_left.0535e742.jpg",
+    "static/media/taliban_lib.e257d83f.jpg": "/static/media/taliban_lib.e257d83f.jpg",
+    "static/media/taliban_right.851ce064.jpg": "/static/media/taliban_right.851ce064.jpg",
+    "static/media/vaccine_left.c3d4e185.jpg": "/static/media/vaccine_left.c3d4e185.jpg",
+    "static/media/vaccine_lib.ce928593.jpg": "/static/media/vaccine_lib.ce928593.jpg",
+    "static/media/vaccine_right.44cae80d.jpg": "/static/media/vaccine_right.44cae80d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.744c95b7.js",
+    "static/js/runtime-main.fd234379.js",
     "static/css/2.ce5f84ac.chunk.css",
-    "static/js/2.0d4749f6.chunk.js",
+    "static/js/2.e1847dbf.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.8e9482c2.chunk.js"
+    "static/js/main.3fe2d86c.chunk.js"
   ]
 }

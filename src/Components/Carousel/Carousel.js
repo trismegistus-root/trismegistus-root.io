@@ -13,10 +13,9 @@ const ArticleScroll = () => {
         <Carousel variant = 'dark' bg = 'dark'>
 
             <Carousel.Item style = {{'height':'800px'}} interval = {4000}>
-                <Container>
                 <img className="d-block w-100" 
                     src = {image.article1(viewSelector)}/>
-                </Container>
+
 
                 <Carousel.Caption>
                     <div style = {{backgroundColor: 'whitesmoke', height: '50px'}}>
@@ -30,12 +29,8 @@ const ArticleScroll = () => {
 
 
             <Carousel.Item style = {{'height':'800px'}} interval = {4000}>
-
-                <Container>
                 <img className="d-block w-100" 
                     src = {image.article2(viewSelector)}/>
-                </Container>
-
                 <Carousel.Caption>
                     <div style = {{backgroundColor: 'whitesmoke', height: '50px'}}>
                     <h3>
@@ -48,10 +43,8 @@ const ArticleScroll = () => {
 
 
             <Carousel.Item style = {{'height':'800px'}} interval = {4000}>
-                <Container>
                 <img className="d-block w-100" 
                     src = {image.article3(viewSelector)}/>
-                </Container>
                 <Carousel.Caption>
                     <div style = {{backgroundColor: 'whitesmoke', height: '50px'}}>
                     <h3>

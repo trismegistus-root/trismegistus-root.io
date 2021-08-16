@@ -1,7 +1,7 @@
 import React from 'react';
 import * as actions from './actiontypes';
 
-export default function viewReducer (state = {view: 'Right Wing'}, action) {
+export default function viewReducer (state = [], action) {
     switch(action.type){
       case actions.RIGHT:
         return {view: 'Right Wing'}

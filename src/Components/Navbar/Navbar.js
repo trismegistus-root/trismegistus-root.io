@@ -2,12 +2,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import { Nav, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState, useEffect } from 'react';
+import { useSelector, useDispatch} from 'react-redux';
+import * as action from '../../Redux_Logic/actiontypes';
 
-//You were working on this prticular page and trying to get this component to pass to arent and then to carousel
+//You were working on this prticular page and trying to get this component to pass to parent and then to carousel
 const Menu = () => {
-    const [view, setView] = useState('Right Wing')
-
+    const viewSelector = useSelector((state)=>state.view);
+    const viewDispatcher = useDispatch();
     return (
     <>
       <Navbar collapseOnSelect fixed = 'top' bg='light' variant='light'>
@@ -24,19 +25,19 @@ const Menu = () => {
         <Container>
           <Nav fill variant='tabs' className="justify-content-end" activeKey="/right">
             <Nav.Item>
-                <Nav.Link>Left</Nav.Link>
+                <Nav.Link onClick={()=>viewDispatcher({type: action.LEFT})}>Left</Nav.Link>
                 </Nav.Item>
             <Nav.Item>
-                <Nav.Link onClick={()=>setView('Libertarian')} eventKey="libertarian">Libertarian</Nav.Link>
+                <Nav.Link onClick={()=>viewDispatcher({type: action.LIBERTARIAN})}>Libertarian</Nav.Link>
                 </Nav.Item>
             <Nav.Item>
-                <Nav.Link onClick={()=>setView('Right Wing')} eventKey="right">Right</Nav.Link>
+                <Nav.Link onClick={()=> viewDispatcher({type: action.RIGHT})}>Right</Nav.Link>
                 </Nav.Item>
             </Nav>
         </Container>
         <Container>
             <Navbar.Text>
-            Viewing as:  {view} 
+            Viewing as:  {viewSelector} 
             </Navbar.Text>
         </Container>
 
